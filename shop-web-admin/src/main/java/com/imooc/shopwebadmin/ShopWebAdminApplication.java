@@ -1,18 +1,19 @@
-package com.imooc.shopbusiness;
+package com.imooc.shopwebadmin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.imooc"})
 @EnableEurekaClient
-public class ShopBusinessApplication {
+@EnableDiscoveryClient
+@EnableFeignClients
+public class ShopWebAdminApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ShopBusinessApplication.class, args);
+        SpringApplication.run(ShopWebAdminApplication.class, args);
     }
 
 }

@@ -9,9 +9,9 @@
     </parent>
 
     <groupId>com.imooc</groupId>
-    <artifactId>shop-business</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <name>shop-business</name>
+    <artifactId>shop-web-admin</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>shop-web-admin</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -19,17 +19,15 @@
     </properties>
 
     <dependencies>
+        <!--Feign负载均衡-->
         <dependency>
-            <groupId>com.imooc</groupId>
-            <artifactId>shop-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.imooc</groupId>
-            <artifactId>shop-server-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-eureka-client</artifactId>
         </dependency>
-
     </dependencies>
 
     <build>

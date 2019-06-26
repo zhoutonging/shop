@@ -5,6 +5,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-common/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-server-api/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-business/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-web-admin/pom.xml" />
       </list>
     </option>
   </component>

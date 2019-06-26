@@ -7,18 +7,31 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
-        <module name="shop" />
+        <module name="shop-business" />
+        <module name="shop-common" />
+        <module name="shop-server-api" />
+        <module name="shop-web-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
       <module name="shop" target="1.8" />
+      <module name="shop-business" target="1.8" />
+      <module name="shop-common" target="1.8" />
+      <module name="shop-member-api" target="1.8" />
+      <module name="shop-server-api" target="1.8" />
+      <module name="shop-web-admin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
       <module name="shop" options="-parameters" />
+      <module name="shop-business" options="-parameters" />
+      <module name="shop-common" options="-parameters" />
+      <module name="shop-member-api" options="-parameters" />
+      <module name="shop-server-api" options="-parameters" />
+      <module name="shop-web-admin" options="-parameters" />
     </option>
   </component>
 </project>

@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop.iml" filepath="$PROJECT_DIR$/shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-business/shop-business.iml" filepath="$PROJECT_DIR$/shop-business/shop-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-common/shop-common.iml" filepath="$PROJECT_DIR$/shop-common/shop-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-server-api/shop-server-api.iml" filepath="$PROJECT_DIR$/shop-server-api/shop-server-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-web-admin/shop-web-admin.iml" filepath="$PROJECT_DIR$/shop-web-admin/shop-web-admin.iml" />
     </modules>
   </component>
 </project>
