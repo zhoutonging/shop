@@ -16,4 +16,9 @@ public class TestController {
     public String test(){
         return testFeign.test();
     }
+
+    @GetMapping("findAll")
+    public String findAll() {
+        return testFeign.findAll();
+    }
 }

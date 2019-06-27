@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.shopbusiness.mapper.UserMapper">
+
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, password, salt
+    </sql>
+
+    <!--根据用户名称查询信息-->
+    <select id="findAll" resultType="com.imooc.api.Dto.UserDto">
+        select id, name, password, salt from user
+    </select>
+
+
+
+</mapper>

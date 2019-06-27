@@ -1,12 +1,13 @@
+server:
+  port: 8764
+feign:  #开启断路器功能
+  hystrix:
+    enabled: true
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-server:
-  port: 8764
 spring:
   application:
     name: shop-web-admin
-feign:  #开启断路器功能
-  hystrix:
-    enabled: true
+
