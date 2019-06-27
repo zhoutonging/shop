@@ -7,4 +7,6 @@ server:
 spring:
   application:
     name: shop-web-admin
-
+feign:  #开启断路器功能
+  hystrix:
+    enabled: true
