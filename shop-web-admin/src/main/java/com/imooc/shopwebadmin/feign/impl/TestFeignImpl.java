@@ -11,7 +11,6 @@ public class TestFeignImpl implements TestFeign {
         return "Sorry,内部出现错误";
     }
 
-
     @Override
     public String findAll() {
         return "Sorry,内部出现错误";
